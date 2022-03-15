@@ -51,7 +51,7 @@
         var pass = $('#pass').val();
 
         $.ajax({
-            url: 'ajax/singUp.php',
+            url: 'ajax/singIn.php',
             type: 'POST',
             cache: false,
             data: {'login' : login, 'pass' : pass},

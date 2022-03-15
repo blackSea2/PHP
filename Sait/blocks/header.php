@@ -11,9 +11,9 @@
     <?php } ?>
         <a class="btn btn-outline-primary ms-2" href="../contacts.php">Контакты</a>
     <?php if ($_COOKIE['login'] == '') { ?>
-        <a class="btn btn-outline-primary ms-2" href="../singUp.php">Войти</a>
+        <a class="btn btn-outline-primary ms-2" href="../singIn.php">Войти</a>
         <a class="btn btn-outline-primary" href="../reg.php">Регистрация</a>
     <?php } else { ?>
-        <a class="btn btn-outline-primary ms-2" href="../singUp.php">Кабинет пользователя</a>
+        <a class="btn btn-outline-primary ms-2" href="../singIn.php">Кабинет пользователя</a>
     <?php } ?>
 </div>
